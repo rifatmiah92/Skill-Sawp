@@ -1,0 +1,90 @@
+[
+  {
+    "flowerId": "1",
+    "name": "Rose",
+    "scientificName": "Rosa rubiginosa",
+    "color": "Red, Pink, White, Yellow",
+    "lifespan_days": 7,
+    "fragrance": "Sweet and romantic aroma",
+    "description": "Symbol of love and beauty, roses are admired for their soft petals and charming fragrance.",
+    "image": "https://i.pinimg.com/736x/8c/f5/4c/8cf54cbf26406caa17823c09e63540ba.jpg",
+    "region": "Worldwide"
+  },
+  {
+    "flowerId": "2",
+    "name": "Tulip",
+    "scientificName": "Tulipa gesneriana",
+    "color": "Red, Yellow, Purple, Pink",
+    "lifespan_days": 10,
+    "fragrance": "Mildly sweet",
+    "description": "A symbol of perfect love, tulips bloom in a variety of vibrant colors during spring.",
+    "image": "https://i.pinimg.com/736x/ac/c0/2d/acc02d1fc784da2dea1e8996ef083e09.jpg",
+    "region": "Europe, Asia"
+  },
+  {
+    "flowerId": "3",
+    "name": "Cherry Blossom",
+    "scientificName": "Prunus serrulata",
+    "color": "Pale pink, White",
+    "lifespan_days": 5,
+    "fragrance": "Light floral",
+    "description": "Famous in Japan, these delicate pink blossoms symbolize renewal and the fleeting nature of life.",
+    "image": "https://i.pinimg.com/1200x/93/a3/6d/93a36d6fb26125c6c105d9bcc221cb6d.jpg",
+    "region": "Japan, Asia"
+  },
+  {
+    "flowerId": "4",
+    "name": "Lily",
+    "scientificName": "Lilium candidum",
+    "color": "White, Orange, Pink, Yellow",
+    "lifespan_days": 14,
+    "fragrance": "Strong and pleasant",
+    "description": "Elegant and fragrant, lilies are often associated with purity and refined beauty.",
+    "image": "https://i.pinimg.com/736x/14/cd/fb/14cdfb9ee8dc2e1e9e7275d2944e1384.jpg",
+    "region": "Europe, Asia, North America"
+  },
+  {
+    "flowerId": "5",
+    "name": "Sunflower",
+    "scientificName": "Helianthus annuus",
+    "color": "Bright yellow",
+    "lifespan_days": 15,
+    "fragrance": "Mild earthy scent",
+    "description": "Known for following the sun, sunflowers symbolize warmth, positivity, and happiness.",
+    "image": "https://i.pinimg.com/736x/dd/89/96/dd8996e00965910cad2a151587e5eadd.jpg",
+    "region": "North America"
+  },
+  {
+    "flowerId": "6",
+    "name": "Orchid",
+    "scientificName": "Orchidaceae",
+    "color": "Pink, White, Purple, Yellow",
+    "lifespan_days": 30,
+    "fragrance": "Subtle and exotic",
+    "description": "Orchids are elegant tropical flowers symbolizing beauty, luxury, and strength.",
+    "image": "https://i.pinimg.com/736x/86/4d/81/864d81108f97bbcf80278f9744fcad59.jpg",
+    "region": "Tropical Regions"
+  },
+  {
+    "flowerId": "7",
+    "name": "Peony",
+    "scientificName": "Paeonia lactiflora",
+    "color": "Pink, Red, White",
+    "lifespan_days": 10,
+    "fragrance": "Sweet and rosy",
+    "description": "Peonies are lush, full blooms symbolizing romance, prosperity, and honor.",
+    "image": "https://i.pinimg.com/736x/8f/52/57/8f5257c88459c47764dfc27207c1a7c6.jpg",
+    "region": "Asia, Europe"
+  },
+  {
+    "flowerId": "8",
+    "name": "Lavender",
+    "scientificName": "Lavandula angustifolia",
+    "color": "Violet, Purple",
+    "lifespan_days": 30,
+    "fragrance": "Strong herbal aroma",
+    "description": "Lavender is known for its calming scent and is often used in perfumes and aromatherapy.",
+    "image": "https://i.pinimg.com/1200x/14/1d/1b/141d1b2f0a28ecf3d8de8cf4e553c60f.jpg",
+    "region": "Mediterranean"
+  }
+]
