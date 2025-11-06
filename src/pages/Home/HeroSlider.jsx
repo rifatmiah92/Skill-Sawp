@@ -20,7 +20,7 @@ const HeroSlider = () => {
       >
         <SwiperSlide>
           <img
-            src="/images/slide1.jpg"
+            src="https://i.pinimg.com/736x/2c/d6/27/2cd6272b1970c05b56e5faad87ea4fc6.jpg"
             alt="Slide 1"
             className="w-full h-[400px] object-cover rounded-2xl"
           />
@@ -28,7 +28,7 @@ const HeroSlider = () => {
 
         <SwiperSlide>
           <img
-            src="/images/slide2.jpg"
+            src="https://i.pinimg.com/736x/37/3c/c4/373cc464e9476d98bfc1d406739d46f3.jpg"
             alt="Slide 2"
             className="w-full h-[400px] object-cover rounded-2xl"
           />
@@ -36,7 +36,7 @@ const HeroSlider = () => {
 
         <SwiperSlide>
           <img
-            src="/images/slide3.jpg"
+            src="https://i.pinimg.com/736x/53/e9/0f/53e90fe8cf1cf0f02beb7c25ad9fd22f.jpg"
             alt="Slide 3"
             className="w-full h-[400px] object-cover rounded-2xl"
           />
