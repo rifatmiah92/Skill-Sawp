@@ -1,16 +1,37 @@
-# React + Vite
+# SkillSwap - Learning Platform
+**LiveLink**  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SkillSwap is a modern and user-friendly **learning platform website** built with **React.js**, **Firebase**, **HTML**, **Tailwind CSS**, and **DaisyUI**. The platform provides a wide range of courses to help learners improve their skills through an interactive and accessible interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## React Compiler
+* Wide Collection of Courses – Users can browse and enroll in different skill-based courses.
+* Secure Authentication – Firebase Authentication for user login and registration.
+* Modern UI – Styled with Tailwind CSS and DaisyUI for a clean and responsive design.
+* Fast and Optimized – Built with React.js for a smooth learning experience.
+* Cloud Database – Firebase Firestore for storing user and course data.
+* Fully Responsive – Works on mobile, tablet, and desktop screens.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js – Frontend library for building the UI.
+* Firebase – Authentication, Firestore Database, and Hosting.
+* HTML5 – Page structure and content.
+* Tailwind CSS – Utility-first CSS framework for fast styling.
+* DaisyUI – Component library built on top of Tailwind CSS.
+
+---
+
+
+
+##  Author
+
+**SkillSwap** developed by *Rifat Miah*.
+
+---
+
+If you need a **GitHub-ready version**, **badges**, or **live demo section**, just let me know!
