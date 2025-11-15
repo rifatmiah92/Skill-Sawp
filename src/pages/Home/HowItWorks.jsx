@@ -18,7 +18,7 @@ const HowItWorks = () => {
       description: "Rate experiences to help others choose.",
       icon: "⭐",
     },
-  ];
+  ];z
 
   return (
     <section className="mt-16 bg-gradient-to-r from-blue-50 via-white to-blue-50 py-12">

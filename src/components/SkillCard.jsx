@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaImage } from "react-icons/fa";
+import { FaImage, FaStar, FaUser } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const SkillCard = ({ skill }) => {
   const [imageLoaded, setImageLoaded] = useState(true);
@@ -12,13 +13,18 @@ const SkillCard = ({ skill }) => {
   };
 
   return (
-    <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200">
-      {/* Image */}
+    <motion.div
+      whileHover={{ scale: 1.03 }}
+      whileTap={{ scale: 0.98 }}
+      transition={{ type: "spring", stiffness: 250 }}
+      className="rounded-2xl shadow-lg overflow-hidden bg-gradient-to-tr from-indigo-50 via-purple-50 to-pink-50 border border-gray-200 hover:shadow-2xl transform duration-300"
+    >
+      {/* Image Section */}
       {imageLoaded ? (
         <img
           src={skill.image}
-          alt={skill.commonName}
-          className="w-full h-48 object-cover"
+          alt={skill.skillName}
+          className="w-full h-48 object-cover rounded-t-2xl"
           onError={handleImageError}
         />
       ) : (
@@ -28,25 +34,39 @@ const SkillCard = ({ skill }) => {
         </div>
       )}
 
-      {/* Details */}
+      {/* Content Section */}
       <div className="p-4">
         <h3 className="font-bold text-lg text-gray-800 mb-1 truncate">
-          {skill.commonName}
+          {skill.skillName}
         </h3>
-        <p className="text-sm text-gray-600 mb-2">{skill.description}</p>
-        <div className="flex items-center justify-between mt-3">
-          <span className="text-indigo-600 font-semibold">
-            {skill.scientificName}
+        <p className="text-sm text-gray-600 mb-3 line-clamp-2">
+          {skill.description}
+        </p>
+
+        <div className="flex items-center justify-between text-sm mb-3">
+          <div className="flex items-center gap-2 text-gray-700">
+            <FaUser className="text-indigo-500" />
+            <span>{skill.providerName}</span>
+          </div>
+          <div className="flex items-center gap-1 text-yellow-500 font-semibold">
+            <FaStar />
+            <span>{skill.rating}</span>
+          </div>
+        </div>
+
+        <div className="flex items-center justify-between">
+          <span className="text-indigo-600 font-semibold text-base">
+            ${skill.price}
           </span>
           <Link
-            to={`/skill/${skill.treeId}`}
-            className="px-3 py-1 bg-blue-600 text-white rounded-full text-sm hover:bg-blue-700 transition"
+            to={`/skill/${skill.skillId}`}
+            className="px-3 py-1 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-full text-sm font-medium hover:from-purple-700 hover:to-pink-700 transition-all duration-300"
           >
             View Details
           </Link>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
